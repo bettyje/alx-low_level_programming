@@ -1,8 +1,21 @@
-!<arch>
-/               1562947432  0     0     0       246       `
-       :   ^  
-¢   &   2   V  !¢  '.  ,¢  1Ö  7Z  <~  Bz  H   M’  RÆ  XB  ]Æ  bÚ  h>_isupper _memset _strcat _atoi _isdigit _memcpy _strncat _strchr _strlen _strncpy _islower _puts _strcmp _strspn _isalpha _strpbrk _strstr _abs _strcpy _putchar  0-isupper.o/    1562947218  1000  1000  100664  1256      `
-ELF              >                                 @     @ 
-   UH‰å‰}üƒ}ü@~
-ƒ}üZ¸    ë ¸    ]Ã GCC: (Ubuntu 7.4.0-1ubuntu1~14.04~ppa1) 7.4.0          zR  x    
-
+#!/bin/bash
+int _putchar(char c);
+int _islower(int c);
+int _isalpha(int c);
+int _abs(int n);
+int _isupper(int c);
+int _isdigit(int c);
+int _strlen(char *s);
+void _puts(char *s);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
