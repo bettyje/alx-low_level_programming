@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #ifndef _MAIN_
+=======
+#ifndef _MAIN_H_
+>>>>>>> 37616a79f32078d2800611d58f1a58c52c01f0e5
 #define _MAIN_H_
 
 void reset_to_98(int *n);
